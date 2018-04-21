@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyTitle>TrumpKnowsGrpcServer</AssemblyTitle>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>TrumpKnowsGrpcServer</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>TrumpKnowsGrpcServer</PackageId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrumpKnowsGrpc\TrumpKnowsGrpc.csproj" />
+  </ItemGroup>
+</Project>

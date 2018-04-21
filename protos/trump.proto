@@ -1,0 +1,28 @@
+syntax = "proto3";
+package trump;
+
+// define csharp namespace
+option csharp_namespace = "Trump";
+
+// The trumpknows service definition.
+service TrumpKnows {
+  // Sends a trump-ism
+  rpc AskForATrumpTweet (BigLeagueRequest) returns (Tweet) {}
+}
+
+// The request message containing the user's name.
+message BigLeagueRequest {
+  string name = 1;
+}
+
+message Tweets {
+  repeated Tweet allTweets = 1;
+}
+// The response message containing a tweet
+message Tweet {
+  string text = 1;
+  string created_at = 2;
+  int32 favorite_count = 3;
+  int32 retweet_count = 4;
+  string id_str = 5;
+}

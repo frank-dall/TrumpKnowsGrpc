@@ -1,0 +1,29 @@
+{
+  "name": "trump-knows-grpc-client",
+  "version": "1.0.0",
+  "description": "A sample gRPC client for random Trump tweets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frank-dall/TrumpKnowsGrpc.git"
+  },
+  "keywords": [
+    "Trump",
+    "gRPC",
+    "protobuf"
+  ],
+  "author": "Frank Dallezotte, f.dallezotte.ms@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frank-dall/TrumpKnowsGrpc/issues"
+  },
+  "homepage": "https://github.com/frank-dall/TrumpKnowsGrpc#readme",
+  "dependencies": {
+    "grpc": "^1.10.1"
+  }
+}
