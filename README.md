@@ -9,11 +9,12 @@ A trivial gRPC implementation that uses a C# server (using .NET core) and a Node
 
 ### Server
 * From the root of the project, start the gRPC server by executing the following:
-   1. `dotnet build`
-   2. `dotnet run --project TrumpKnowsGrpcServer/TrumpKnowsGrpcServer.csproj`
+   1. `cd TrumpKnowsGrpcServer/`
+   2. `dotnet build`
+   3. `dotnet run`
 ### Client
 * To interact with the server using the Node.js client, from a separate terminal window (also at the root of the project):
-   1. `cd trump-knows-grpc-client`
+   1. `cd trump-knows-grpc-client/`
    2. `npm install`
    3. `node index.js`, as many times as you would like
 
